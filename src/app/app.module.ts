@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonComponentModule } from './Modules/common-component/common-component.module';
 import { HomePageModule } from './Modules/home-page/home-page.module';
+import { ProductModule } from './Modules/product/product.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,10 @@ import { HomePageModule } from './Modules/home-page/home-page.module';
     BrowserModule,
     AppRoutingModule,
     CommonComponentModule,
-    HomePageModule
+    HomePageModule,
+    ProductModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
